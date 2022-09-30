@@ -64,13 +64,19 @@ a, a:hover{
 }
 
 .dsmovie-card{
-width: 100%;
-/*height: 349px;*/
-left: 33px;
-top: 130px;
+    width: 100%;
+    /*height: 349px;*/
+    left: 33px;
+    top: 130px;
 
-background: var(--color-white);
-border-radius: 8px;
+    background: var(--color-white);
+    border-radius: 8px;
+
+    transition: transform 0.5s;
+}
+
+.dsmovie-card:hover{
+    transform: scale(1.3);
 }
 
 .dsmovie-card img{
